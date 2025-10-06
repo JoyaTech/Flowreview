@@ -1,0 +1,60 @@
+
+import type { Review } from './types';
+
+export const MOCK_REVIEWS: Review[] = [
+  {
+    id: 1,
+    platform: 'google',
+    authorName: 'Dana Levi',
+    rating: 5,
+    reviewText: 'The best coffee in Tel Aviv! The atmosphere is amazing and the staff are always so friendly. I come here every morning before work. Highly recommend the iced latte.',
+    reviewUrl: '#',
+    needsReply: true,
+    repliedAt: null,
+    replyText: null,
+  },
+  {
+    id: 2,
+    platform: 'google',
+    authorName: 'Yossi Cohen',
+    rating: 2,
+    reviewText: 'Was really disappointed with the service. Waited 20 minutes just to order, and my shakshuka was cold when it arrived. The place was very noisy too. Not the experience I was hoping for.',
+    reviewUrl: '#',
+    needsReply: true,
+    repliedAt: null,
+    replyText: null,
+  },
+  {
+    id: 3,
+    platform: 'google',
+    authorName: 'Shir Avraham',
+    rating: 4,
+    reviewText: 'Great place for a brunch meeting. The food was delicious and the prices are fair. It gets a bit crowded on weekends, but the quality makes it worth the wait. The cheesecake is a must-try!',
+    reviewUrl: '#',
+    needsReply: true,
+    repliedAt: null,
+    replyText: null,
+  },
+  {
+    id: 4,
+    platform: 'google',
+    authorName: 'Avi B.',
+    rating: 5,
+    reviewText: 'I just wanted to say thank you for the wonderful service yesterday. My wife and I were celebrating our anniversary and the staff went above and beyond to make it special. This is our favorite spot in the city!',
+    reviewUrl: '#',
+    needsReply: false,
+    repliedAt: '2 days ago',
+    replyText: 'Thank you so much, Avi! We\'re thrilled to hear you and your wife had a wonderful anniversary celebration with us. We look forward to welcoming you back soon!',
+  },
+  {
+    id: 5,
+    platform: 'google',
+    authorName: 'Maya Goldstein',
+    rating: 1,
+    reviewText: 'Found a hair in my salad. I told the waiter and he just shrugged. Absolutely disgusting and unprofessional. I will not be coming back and will be telling my friends to avoid this place.',
+    reviewUrl: '#',
+    needsReply: true,
+    repliedAt: null,
+    replyText: null,
+  }
+];
